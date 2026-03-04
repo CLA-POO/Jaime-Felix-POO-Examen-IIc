@@ -13,11 +13,11 @@ Libro - Precio
 ==============
 
 Proporcione el ISBN del libro:1234567890123
-Proporcione el título del libro:Java en 21 días
+Proporcione el titulo del libro:Java en 21 dias
 Proporcione el autor del libro:James Gosling
-Proporcione el número de páginas del libro:1000
+Proporcione el numero de paginas del libro:1000
 
-Libro: ISBN=1234567890123, Título=Java en 21 días, Autor=James Gosling, Número de páginas=1000
+Libro: ISBN=1234567890123, Titulo=Java en 21 dias, Autor=James Gosling, Numero de paginas=1000
 Precio del libro: $1,500.00
 ```
 
