@@ -11,11 +11,11 @@ public class Principal {
         System.out.println();
 
         // Solicitar los datos en el siguiente orden:
-        // ISBN, título, autor y número de páginas
+        // ISBN, titulo, autor y numero de paginas
 
         // Crear el objeto Libro
 
-        // Línea en blanco
+        // Linea en blanco
         System.out.println();
 
         // Mostrar los datos del libro

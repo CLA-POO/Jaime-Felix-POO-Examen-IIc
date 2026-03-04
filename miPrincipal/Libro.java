@@ -5,23 +5,23 @@ package miPrincipal;
 
 public class Libro {
     // Atributos
-    private String ISBN;        // ISBN del libro de 13 dígitos
-    private String titulo;      // Título del libro
+    private String ISBN;        // ISBN del libro de 13 digitos
+    private String titulo;      // Titulo del libro
     private String autor;       // Autor del libro
-    private int numeroPaginas; // Número de páginas del libro
+    private int numeroPaginas; // Numero de paginas del libro
 
     // Constructor
     public Libro(String ISBN, String titulo, String autor, int numeroPaginas) {
-        // Mandar llamar a los métodos set de los atributos
+        // Mandar llamar a los metodos set de los atributos
     }
 
-    // Métodos set/get
+    // Metodos set/get
     public void setISBN(String ISBN) {
-        // El ISBN debe tener 13 dígitos, si no es válido se asigna el ISBN por defecto
+        // El ISBN debe tener 13 digitos, si no es valido se asigna el ISBN por defecto
     }
 
     public void setTitulo(String titulo) {
-        // El título no se v+alida
+        // El titulo no se valida
     }
 
     public void setAutor(String autor) {
@@ -29,7 +29,7 @@ public class Libro {
     }
 
     public void setNumeroPaginas(int numeroPaginas) {
-        // El número de páginas debe ser mayor o igual que 0, si no es válido se asigna 0
+        // El numero de paginas debe ser mayor o igual que 0, si no es valido se asigna 0
     }
 
     public String getISBN() {
@@ -48,17 +48,17 @@ public class Libro {
         return 0;
     }
 
-    // Método de instancia para calcular el precio del libro
+    // Metodo de instancia para calcular el precio del libro
     public double calcularPrecio() {
-        // El precio por página es 1.50
-        // El precio total es el precio por páginas
+        // El precio por pagina es 1.50
+        // El precio total es el precio por paginas multiplicado por el numero de paginas
         return 0.0;
     }
 
-    // Sobrescribir el método toString() para mostrar la información del libro
+    // Sobrescribir el metodo toString() para mostrar la informacion del libro
     @Override
     public String toString() {
-        String temporal = String.format( "Libro: ISBN=%s, Título=%s, Autor=%s, Número de páginas=%d", 
+        String temporal = String.format( "Libro: ISBN=%s, Titulo=%s, Autor=%s, Numero de paginas=%d", 
                                     ISBN, titulo, autor, numeroPaginas);
         return temporal;
     }
